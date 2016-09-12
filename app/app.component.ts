@@ -20,11 +20,6 @@ import { Component } from '@angular/core';
   </strong>
   </li>
 
-  <li>
-  <strong>
-  Tipo: {{clas}}
-  </strong>
-  </li>
   </ul>`
 })
 export class AppComponent {
@@ -33,10 +28,6 @@ public titulo="PELICULAR CON ANGULAR";
 public pelicula="Batman vs Superman";
 public director="Zack Snider";
 public anio="2016";
-public clas="Acción"
 
- }
-
- export class AppComponent2{
 
  }
