@@ -14,7 +14,7 @@ var AppComponent = (function () {
         this.titulo = "PELICULAR CON ANGULAR";
         this.pelicula = "Batman vs Superman";
         this.director = "Zack Snider";
-        this.anio = "2016";
+        this.anio = 2016;
     }
     AppComponent = __decorate([
         core_1.Component({

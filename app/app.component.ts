@@ -29,7 +29,7 @@ public titulo="PELICULAR CON ANGULAR";
 <<<<<<< HEAD
 public pelicula:string="Batman vs Superman";
 public director:string="Zack Snider";
-public anio:nombre="2016";
+public anio:number=2016;
 
 
  }
