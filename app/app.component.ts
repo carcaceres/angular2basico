@@ -26,7 +26,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
 public titulo="PELICULAR CON ANGULAR";
-<<<<<<< HEAD
 public pelicula:string="Batman vs Superman";
 public director:string="Zack Snider";
 public anio:number=2016;
