@@ -20,19 +20,16 @@ import { Component } from '@angular/core';
   </strong>
   </li>
 
-  
   </ul>`
 })
+
 export class AppComponent {
 
 public titulo="PELICULAR CON ANGULAR";
+<<<<<<< HEAD
 public pelicula:string="Batman vs Superman";
 public director:string="Zack Snider";
 public anio:nombre="2016";
 
-
- }
-
- export class AppComponent2{
 
  }

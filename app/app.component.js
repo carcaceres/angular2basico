@@ -19,17 +19,11 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<h1><strong>{{titulo}}</strong></h1>\n  <ul>\n  <li>\n  <strong>\n  Pelicula: {{pelicula}}\n  </strong>\n  </li>\n  <li>\n  <strong>\n  director: {{director}}\n  </strong>\n  </li>\n  \n  <li>\n  <strong>\n  A\u00F1o: {{anio}}\n  </strong>\n  </li>\n\n  \n  </ul>"
+            template: "<h1><strong>{{titulo}}</strong></h1>\n  <ul>\n  <li>\n  <strong>\n  Pelicula: {{pelicula}}\n  </strong>\n  </li>\n  <li>\n  <strong>\n  director: {{director}}\n  </strong>\n  </li>\n  \n  <li>\n  <strong>\n  A\u00F1o: {{anio}}\n  </strong>\n  </li>\n\n  </ul>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
-var AppComponent2 = (function () {
-    function AppComponent2() {
-    }
-    return AppComponent2;
-}());
-exports.AppComponent2 = AppComponent2;
 //# sourceMappingURL=app.component.js.map
