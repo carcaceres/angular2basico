@@ -15,12 +15,11 @@ var AppComponent = (function () {
         this.pelicula = "Batman vs Superman";
         this.director = "Zack Snider";
         this.anio = "2016";
-        this.clas = "Acción";
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<h1><strong>{{titulo}}</strong></h1>\n  <ul>\n  <li>\n  <strong>\n  Pelicula: {{pelicula}}\n  </strong>\n  </li>\n  <li>\n  <strong>\n  director: {{director}}\n  </strong>\n  </li>\n  \n  <li>\n  <strong>\n  A\u00F1o: {{anio}}\n  </strong>\n  </li>\n\n  <li>\n  <strong>\n  Tipo: {{clas}}\n  </strong>\n  </li>\n  </ul>"
+            template: "<h1><strong>{{titulo}}</strong></h1>\n  <ul>\n  <li>\n  <strong>\n  Pelicula: {{pelicula}}\n  </strong>\n  </li>\n  <li>\n  <strong>\n  director: {{director}}\n  </strong>\n  </li>\n  \n  <li>\n  <strong>\n  A\u00F1o: {{anio}}\n  </strong>\n  </li>\n\n  \n  </ul>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
