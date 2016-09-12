@@ -25,7 +25,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
-public titulo="PELICULAR CON ANGULAR";
+public titulo="CARTELERA DE PELICULAS CON ANGULAR";
 public pelicula:string="Batman vs Superman";
 public director:string="Zack Snider";
 public anio:number=2016;

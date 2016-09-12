@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var AppComponent = (function () {
     function AppComponent() {
-        this.titulo = "PELICULAR CON ANGULAR";
+        this.titulo = "CARTELERA DE PELICULAS CON ANGULAR";
         this.pelicula = "Batman vs Superman";
         this.director = "Zack Snider";
         this.anio = 2016;
