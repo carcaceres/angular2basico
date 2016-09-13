@@ -13,8 +13,8 @@ var Pelicula_1 = require("./model/Pelicula");
 var AppComponent = (function () {
     function AppComponent() {
         this.titulo = "CARTELERA DE PELICULAS CON ANGULAR";
-        this.pelicula = new Pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", "2016", "acción y ficción");
-        this.pelicula2 = new Pelicula_1.Pelicula(2, "Los Vengadores", "Joss Whedon", "2012", "Ciencia ficción,SuperHeroes");
+        this.pelicula = new Pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", 2016, "acción y ficción");
+        this.pelicula2 = new Pelicula_1.Pelicula(2, "Los Vengadores", "Joss Whedon", 2012, "Ciencia ficción,SuperHeroes");
         this.debug();
     }
     AppComponent.prototype.debug = function () {
@@ -23,7 +23,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            templateUrl: "app/view/peliculas.html"
+            templateUrl: "app/view/peliculas.html",
+            styleUrls: ["../assets/css/style.css"]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
