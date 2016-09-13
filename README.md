@@ -18,7 +18,7 @@ Paso 5 Actualizar en Node Js:
 
 npm install npm -g 
 
-
+Paso 6 Ejecutar El Servidor Node JS
 
 npm start
 
