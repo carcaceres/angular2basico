@@ -1,22 +1,28 @@
 import { Component } from '@angular/core';
+import {Pelicula} from "./model/Pelicula";
 @Component({
   selector: 'my-app',
   template: `<h1><strong>{{titulo}}</strong></h1>
   <ul>
   <li>
   <strong>
-  Pelicula: {{pelicula}}
+  Pelicula: {{pelicula.id}}
   </strong>
   </li>
   <li>
   <strong>
-  director: {{director}}
+  Pelicula: {{pelicula.titulo}}
+  </strong>
+  </li>
+  <li>
+  <strong>
+  director: {{pelicula.director}}
   </strong>
   </li>
   
   <li>
   <strong>
-  Año: {{anio}}
+  Año: {{pelicula.anio}}
   </strong>
   </li>
 
@@ -26,25 +32,22 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
 public titulo="CARTELERA DE PELICULAS CON ANGULAR";
+public pelicula:Pelicula;
+
 
 
 
 
 constructor(){
-  this.pelicula="Batman vs Superman";
-  this.director="Zack Snider";
-  this.anio=2016;
-  this.saludo("carlos","caceres");
-
+ 
+this.pelicula= new Pelicula(1,"Batman vs Superman","Zack Snider","2016");
+this.debug();
 }
 
-holaMundo(){
-  alert(this.pelicula+" "+this.director+" "+this.anio);
+debug(){
+  console.log(this.pelicula);
 }
 
-saludo(nombre:string,apellido:string){
-  alert("hola soy "+nombre+" "+apellido);
-}
 
 
 

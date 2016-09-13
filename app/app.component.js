@@ -9,24 +9,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var Pelicula_1 = require("./model/Pelicula");
 var AppComponent = (function () {
     function AppComponent() {
         this.titulo = "CARTELERA DE PELICULAS CON ANGULAR";
-        this.pelicula = "Batman vs Superman";
-        this.director = "Zack Snider";
-        this.anio = 2016;
-        this.saludo("carlos", "caceres");
+        this.pelicula = new Pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", "2016");
+        this.debug();
     }
-    AppComponent.prototype.holaMundo = function () {
-        alert(this.pelicula + " " + this.director + " " + this.anio);
-    };
-    AppComponent.prototype.saludo = function (nombre, apellido) {
-        alert("hola soy " + nombre + " " + apellido);
+    AppComponent.prototype.debug = function () {
+        console.log(this.pelicula);
     };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<h1><strong>{{titulo}}</strong></h1>\n  <ul>\n  <li>\n  <strong>\n  Pelicula: {{pelicula}}\n  </strong>\n  </li>\n  <li>\n  <strong>\n  director: {{director}}\n  </strong>\n  </li>\n  \n  <li>\n  <strong>\n  A\u00F1o: {{anio}}\n  </strong>\n  </li>\n\n  </ul>"
+            template: "<h1><strong>{{titulo}}</strong></h1>\n  <ul>\n  <li>\n  <strong>\n  Pelicula: {{pelicula.id}}\n  </strong>\n  </li>\n  <li>\n  <strong>\n  Pelicula: {{pelicula.titulo}}\n  </strong>\n  </li>\n  <li>\n  <strong>\n  director: {{pelicula.director}}\n  </strong>\n  </li>\n  \n  <li>\n  <strong>\n  A\u00F1o: {{pelicula.anio}}\n  </strong>\n  </li>\n\n  </ul>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
