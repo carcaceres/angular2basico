@@ -12,6 +12,7 @@ public titulo="CARTELERA DE PELICULAS CON ANGULAR";
 public pelicula:Pelicula;
 public pelicula2:Pelicula;
 public mostrarDatos:boolean;
+public peliculas:Array;
 
 
 
@@ -19,12 +20,21 @@ constructor(){
 this.mostrarDatos=false;
 this.pelicula= new Pelicula(1,"Batman vs Superman","Zack Snider",2016,"acción y ficción");
 this.pelicula2= new Pelicula(2,"Los Vengadores","Joss Whedon",2012,"Ciencia ficción,SuperHeroes");
+this.peliculas=[
+new Pelicula(2,"Los Vengadores","Joss Whedon","","Ciencia ficción,SuperHeroes");
+new Pelicula(3,"Los Vengadores 2","Joss Whedon","","Ciencia ficción,SuperHeroes");
+new Pelicula(4,"Los civil war","Joss Whedon",2011,"Ciencia ficción,SuperHeroes");
+new Pelicula(5,"Los ant-man","Joss Whedon",2013,"Ciencia ficción,SuperHeroes");
+];
 
-this.debug();
+//this.debug();
 }
 
 debug(){
-  console.log(this.pelicula);
+
+      console.log(this.pelicula);
+ 
+
 }
 
 onShowHide(valor:boolean){
@@ -33,3 +43,4 @@ onShowHide(valor:boolean){
 
 
  }
+
