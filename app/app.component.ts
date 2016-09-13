@@ -26,9 +26,26 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
 public titulo="CARTELERA DE PELICULAS CON ANGULAR";
-public pelicula:string="Batman vs Superman";
-public director:string="Zack Snider";
-public anio:number=2016;
+
+
+
+
+constructor(){
+  this.pelicula="Batman vs Superman";
+  this.director="Zack Snider";
+  this.anio=2016;
+  this.saludo("carlos","caceres");
+
+}
+
+holaMundo(){
+  alert(this.pelicula+" "+this.director+" "+this.anio);
+}
+
+saludo(nombre:string,apellido:string){
+  alert("hola soy "+nombre+" "+apellido);
+}
+
 
 
  }

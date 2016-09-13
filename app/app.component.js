@@ -15,7 +15,14 @@ var AppComponent = (function () {
         this.pelicula = "Batman vs Superman";
         this.director = "Zack Snider";
         this.anio = 2016;
+        this.saludo("carlos", "caceres");
     }
+    AppComponent.prototype.holaMundo = function () {
+        alert(this.pelicula + " " + this.director + " " + this.anio);
+    };
+    AppComponent.prototype.saludo = function (nombre, apellido) {
+        alert("hola soy " + nombre + " " + apellido);
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
