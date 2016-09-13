@@ -16,7 +16,7 @@ public pelicula:Pelicula;
 
 constructor(){
  
-this.pelicula= new Pelicula(1,"Batman vs Superman","Zack Snider","2016");
+this.pelicula= new Pelicula(1,"Batman vs Superman","Zack Snider","2016","acción y ficción");
 this.debug();
 }
 

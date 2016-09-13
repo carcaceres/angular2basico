@@ -13,7 +13,7 @@ var Pelicula_1 = require("./model/Pelicula");
 var AppComponent = (function () {
     function AppComponent() {
         this.titulo = "CARTELERA DE PELICULAS CON ANGULAR";
-        this.pelicula = new Pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", "2016");
+        this.pelicula = new Pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", "2016", "acción y ficción");
         this.debug();
     }
     AppComponent.prototype.debug = function () {
