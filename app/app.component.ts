@@ -27,7 +27,9 @@ debug(){
   console.log(this.pelicula);
 }
 
-
+onShowHide(valor:boolean){
+  this.mostrarDatos=valor;
+}
 
 
  }

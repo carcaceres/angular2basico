@@ -21,6 +21,9 @@ var AppComponent = (function () {
     AppComponent.prototype.debug = function () {
         console.log(this.pelicula);
     };
+    AppComponent.prototype.onShowHide = function (valor) {
+        this.mostrarDatos = valor;
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',

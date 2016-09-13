@@ -1,4 +1,8 @@
 <h1><strong>{{titulo}}</strong></h1>
+<h4>Listado de Peliculas</h4>
+<button (click)="onShowHide(true)" [class.ShowingData]="mostrarDatos===true">Mostrar Datos</button>
+<button (click)="onShowHide(false)" [class.ShowingData]="mostrarDatos===false">Ocultar Datos</button>
+
   <ul *ngIf="mostrarDatos===true">
   <li>
   <strong>
@@ -30,7 +34,7 @@
   </ul>
 
 
-  <ul>
+  <ul *ngIf="mostrarDatos===true">
   <li>
   <strong>
   Pelicula: {{pelicula2.id}}
