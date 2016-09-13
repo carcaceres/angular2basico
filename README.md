@@ -10,7 +10,15 @@ Paso 3 Instalas los Modulos de TypeScript en el raiz del proyecto
 
 npm install
 
-paso 4 Ejecutas el Proyecto en node.js
+Paso 4 Instalas la Carpeta Typings
+
+npm run typings install
+
+Paso 5 Actualizar en Node Js:
+
+npm install npm -g 
+
+
 
 npm start
 
