@@ -68,5 +68,5 @@
 
   <p>
 Cambio de Titulo
-<input type="text" name="titulo" [(ngModel)]="pelicula.director">
+<input type="text" (keypress)="debug()" name="titulo" [(ngModel)]="pelicula.titulo">
 </p>
