@@ -11,12 +11,12 @@ export class AppComponent {
 public titulo="CARTELERA DE PELICULAS CON ANGULAR";
 public pelicula:Pelicula;
 public pelicula2:Pelicula;
-
+public mostrarDatos:boolean;
 
 
 
 constructor(){
- 
+this.mostrarDatos=false;
 this.pelicula= new Pelicula(1,"Batman vs Superman","Zack Snider",2016,"acción y ficción");
 this.pelicula2= new Pelicula(2,"Los Vengadores","Joss Whedon",2012,"Ciencia ficción,SuperHeroes");
 
