@@ -22,7 +22,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<h1><strong>{{titulo}}</strong></h1>\n  <ul>\n  <li>\n  <strong>\n  Pelicula: {{pelicula.id}}\n  </strong>\n  </li>\n  <li>\n  <strong>\n  Pelicula: {{pelicula.titulo}}\n  </strong>\n  </li>\n  <li>\n  <strong>\n  director: {{pelicula.director}}\n  </strong>\n  </li>\n  \n  <li>\n  <strong>\n  A\u00F1o: {{pelicula.anio}}\n  </strong>\n  </li>\n\n  </ul>"
+            templateUrl: "app/view/peliculas.html"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
