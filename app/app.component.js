@@ -17,8 +17,9 @@ var AppComponent = (function () {
         this.pelicula = new Pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", 2016, "acción y ficción");
         this.pelicula2 = new Pelicula_1.Pelicula(2, "Los Vengadores", "Joss Whedon", 2012, "Ciencia ficción,SuperHeroes");
         this.peliculas = [
-            new Pelicula_1.Pelicula(2, "Los Vengadores", "Joss Whedon", "", "Ciencia ficción,SuperHeroes"),
-            new Pelicula_1.Pelicula(3, "Los Vengadores 2", "Joss Whedon", "", "Ciencia ficción,SuperHeroes"),
+            new Pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", 2016, "acción y ficción"),
+            new Pelicula_1.Pelicula(2, "Los Vengadores", "Joss Whedon", 2012, "Ciencia ficción,SuperHeroes"),
+            new Pelicula_1.Pelicula(3, "Los Vengadores 2", "Joss Whedon", 2012, "Ciencia ficción,SuperHeroes"),
             new Pelicula_1.Pelicula(4, "Los civil war", "Joss Whedon", 2011, "Ciencia ficción,SuperHeroes"),
             new Pelicula_1.Pelicula(5, "Los ant-man", "Joss Whedon", 2013, "Ciencia ficción,SuperHeroes")
         ];
